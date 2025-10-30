@@ -1,4 +1,4 @@
-import random
+     import random
 
 def get_choices():
     player_choice = input ("enter a choise (rock, paper, scissors: ")
@@ -30,3 +30,4 @@ def check_win(player, computer):
 choices = get_choices()
 result = check_win(choices["player"], choices["computer"])
 print(result)
+print("dah selesai")
